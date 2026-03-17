@@ -1,0 +1,6 @@
+{
+  "name": "code-harness-skills",
+  "description": "Reusable Claude Code skills for software development workflows - skill building, code organization, testing, sprints, releases, and more",
+  "version": "0.1.0",
+  "author": "Holosun ApS"
+}

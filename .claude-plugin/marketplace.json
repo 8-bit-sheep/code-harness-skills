@@ -1,0 +1,66 @@
+{
+  "name": "code-harness-skills",
+  "owner": "Holosun ApS",
+  "plugins": [
+    {
+      "name": "skill-builder",
+      "source": "./skills/skill-builder",
+      "description": "Create, test, evaluate, and optimize Claude Code skills with eval-driven iteration"
+    },
+    {
+      "name": "codebase-organizer",
+      "source": "./skills/codebase-organizer",
+      "description": "Monitor file sizes and split large files into AI-friendly modules with test validation"
+    },
+    {
+      "name": "headless-runner",
+      "source": "./skills/headless-runner",
+      "description": "Run Claude Code programmatically in headless mode for CI/CD, automation, and agent workflows"
+    },
+    {
+      "name": "test-coverage-guardian",
+      "source": "./skills/test-coverage-guardian",
+      "description": "Analyze test coverage, identify gaps, detect dead code, and enforce quality gates"
+    },
+    {
+      "name": "sprint-planner",
+      "source": "./skills/sprint-planner",
+      "description": "Analyze design docs, calculate velocity from git history, and create realistic sprint plans"
+    },
+    {
+      "name": "sprint-executor",
+      "source": "./skills/sprint-executor",
+      "description": "Execute sprint plans with test-driven development, milestone tracking, and checkpoint validation"
+    },
+    {
+      "name": "design-doc-creator",
+      "source": "./skills/design-doc-creator",
+      "description": "Create structured design documents with systemic analysis and related doc discovery"
+    },
+    {
+      "name": "github-issue-triage",
+      "source": "./skills/github-issue-triage",
+      "description": "Monitor and triage GitHub issues against design docs and implementation status"
+    },
+    {
+      "name": "release-manager",
+      "source": "./skills/release-manager",
+      "description": "Automate release workflows with version bumps, changelog updates, git tags, and CI verification"
+    },
+    {
+      "name": "perf-reviewer",
+      "source": "./skills/perf-reviewer",
+      "description": "Review code for performance issues, run benchmarks, and identify optimization opportunities"
+    },
+    {
+      "name": "agent-inbox",
+      "source": "./skills/agent-inbox",
+      "description": "Cross-agent messaging with inbox management, correlation tracking, and handoff patterns"
+    },
+    {
+      "name": "cloud-setup",
+      "source": "./skills/cloud-setup",
+      "description": "Set up development environments in cloud/mobile Claude Code sessions with tool verification"
+    }
+  ]
+}
