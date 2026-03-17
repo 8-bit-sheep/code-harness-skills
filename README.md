@@ -8,22 +8,22 @@ Reusable [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills fo
 
 ```bash
 # In Claude Code
-/plugin marketplace add sunholo-data/code-harness-skills
+/plugin marketplace add 8-bit-sheep/code-harness-skills
 ```
 
 ### Install individual skills
 
 ```bash
-/plugin install skill-builder@sunholo-data/code-harness-skills
-/plugin install sprint-planner@sunholo-data/code-harness-skills
-/plugin install release-manager@sunholo-data/code-harness-skills
+/plugin install skill-builder@8-bit-sheep/code-harness-skills
+/plugin install sprint-planner@8-bit-sheep/code-harness-skills
+/plugin install release-manager@8-bit-sheep/code-harness-skills
 # ... etc
 ```
 
 ### Local development
 
 ```bash
-git clone https://github.com/sunholo-data/code-harness-skills
+git clone https://github.com/8-bit-sheep/code-harness-skills
 # In Claude Code:
 /plugin marketplace add ./code-harness-skills
 ```
